@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="vue.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="app">
+            <p> {{title}}</p>
+            <input v-model="describe">
+        </div>
+
+        <script type="text/javascript">
+            var data = { 
+                title: "处理您的二手物品",
+                describe: "请大概描述一下...",
+                location: {}
+            }
+            var vm = new Vue({
+                el:"#app",
+                data: data
+            });
+        </script>
+    </body>
+</html>
