@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Edit note</h1>
+    <h1>Edit item</h1>
     <hr/><br/>
 
     <form @submit.prevent="submit">

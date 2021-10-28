@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <h1>Add new note</h1>
+      <h1>Drop a item</h1>
       <hr/><br/>
 
       <form @submit.prevent="submit">
@@ -10,7 +10,7 @@
           <input type="text" name="title" v-model="form.title" class="form-control" />
         </div>
         <div class="mb-3">
-          <label for="content" class="form-label">Content:</label>
+          <label for="content" class="form-label">Describe:</label>
           <textarea
             name="content"
             v-model="form.content"

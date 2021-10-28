@@ -1,9 +1,10 @@
 <template>
   <section>
-    <p>This site is built with FastAPI and Vue.</p>
+    <p>Come and throw away your unwanted stuff for free</p>
+    <p>Just drop it！</p>
 
     <div v-if="isLoggedIn" id="logout">
-      <p id="logout">Click <a href="/dashboard">here</a> to view all notes.</p>
+      <p id="logout">Click <a href="/dashboard">here</a> to view all items.</p>
     </div>
     <p v-else>
       <span><a href="/register">Register</a></span>
